@@ -43,19 +43,18 @@
     font-family: 'Acme',sans-serif;
     color: #fff;
     background-color:#F9A08D;
-    border-color:#F9A08D;
     width: 200px;
     height: 50px;
     border-radius: 60px;
-    transition:all 0.5s ease-in;
+    transition:all 0.5s ease;
     box-shadow: 0 8px 8px -7px #F9A08D;
    
  }
+ 
  .btn-custom:hover{
     color: #fff;
     background-image: linear-gradient(to right, #68E4BC 0%, #4AD0D1 99%);
     box-shadow: 0 8px 8px -7px #0db4afb8;
-    border-color: transparent;
  
  }
 .container .description .fas{
