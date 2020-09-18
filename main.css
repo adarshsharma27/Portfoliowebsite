@@ -1,12 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 .darkmode{
     filter: invert(100) hue-rotate(180deg);
@@ -15,7 +13,7 @@
     filter: invert(100) hue-rotate(180deg);
 }
 .navbar-expand-lg .navbar-nav .nav-link{
-    font-family: 'Inter',sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size:1.2rem;
     position: relative;
 }
@@ -40,7 +38,7 @@
 
 
 .btn-custom{
-    font-family: 'Acme',sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: #fff;
     background-color:#F9A08D;
     width: 200px;
@@ -53,8 +51,8 @@
  
  .btn-custom:hover{
     color: #fff;
-    background-image: linear-gradient(to right, #68E4BC 0%, #4AD0D1 99%);
-    box-shadow: 0 8px 8px -7px #0db4afb8;
+    background-color:#68E4BC;
+    box-shadow: 0 8px 8px -7px #68E4BC;
  
  }
 .container .description .fas{
@@ -63,20 +61,21 @@
    display: inline-block;
 }
  h2{
-    font-family: 'Inter',sans-serif;
+    font-family: 'Roboto Slab', serif;
     color:#252c42;
+    font-size: 2.5rem;
  }
   h4{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color:#4c505d;
-    font-family: 'Acme',sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
  p{
     font-size: 1rem;
     letter-spacing: 0.1px;
     line-height: 2rem;
     color:hsl(201, 11%, 66%);
-    font-family: 'Acme',sans-serif;
+    font-family: 'Roboto', serif;
     margin-bottom: 0.5rem;
    
 }
@@ -90,18 +89,18 @@
      align-content: center;
      box-shadow:0px 12px 15px -12px #9DA2AD;
      cursor: pointer;
-     transition: all 0.5s ease;
      position: relative;
      text-align: center;
      overflow: hidden;
      margin: 15px auto;
    padding: 2rem;
+   
   
    
  }
  .card-service:hover{
     box-shadow:0px 0px 25px 5px rgba(0,0,0,0.1);
-    transition-delay: 0.5s;
+    transition: all 0.5s ease!important;
  }
  
  
@@ -119,14 +118,14 @@
     font-size: 1.3rem;
     line-height: 2.5rem;
     color:#4c505d;
-    font-family: 'Acme',sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 .card-service p{
     font-size: 1rem;
     letter-spacing: 0.1px;
     line-height: 2rem;
     color:hsl(201, 11%, 66%);
-    font-family: 'Acme',sans-serif;
+    font-family: 'Roboto', serif;
    
 }
  .icon{
@@ -181,7 +180,7 @@
         font-size: 1.3rem;
         line-height:1rem;
         color:#4c505d;
-        font-family: 'Acme',sans-serif;
+        font-family: 'Roboto Slab', serif;
         
     }
     .card p{
@@ -189,7 +188,7 @@
         letter-spacing: 0.1px;
         line-height: 2rem;
         color:hsl(201, 11%, 66%);
-        font-family: 'Acme',sans-serif;
+        font-family: 'Roboto', serif;
         margin-bottom: 0.5rem;
        
     }
@@ -279,7 +278,7 @@
 
 
 .form-control{
-    font-family: 'Acme',sans-serif;
+    font-family: 'Roboto Slab', serif;
     border-radius:20px;
 }
 textarea{
@@ -310,7 +309,7 @@ textarea{
     color:#fff;
     font-size: 1.1rem;
     letter-spacing: 0.1px;
-    font-family: 'Acme',sans-serif;
+    font-family: 'Roboto', serif;
 }
 .scroll-button{
     position: fixed;
