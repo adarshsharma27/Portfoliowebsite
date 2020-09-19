@@ -27,9 +27,13 @@ const inc=()=>{
 
  $(document).ready(function(){
     $(window).scroll(function(){
+        setTimeout(function() {  
+            $(".cv-section").fadeIn(400).scroll();
+         }, 500);
     if($(this).scrollTop() > 200)
     {
         $(".scroll-button").fadeIn(400);
+        
     }
     else
     $(".scroll-button").fadeOut(400);
