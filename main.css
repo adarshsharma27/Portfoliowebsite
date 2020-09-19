@@ -49,7 +49,7 @@
    
  }
  
- .btn-custom:hover{
+ .btn-custom:hover,.btn-custom:focus{
     color: #fff;
     background-color:#68E4BC;
     box-shadow: 0 8px 8px -7px #68E4BC;
@@ -176,6 +176,9 @@
         margin: 0 auto;
         text-align: center;
     }
+    .card-title{
+        padding-bottom: 0.5rem;
+    }
     .card h4{
         font-size: 1.3rem;
         line-height:1rem;
@@ -284,7 +287,10 @@
 textarea{
     resize: none;
 }
-.fab,.fa-envelope-open{
+a{
+    text-decoration: none;
+}
+.fab,.fa-envelope-open,.fa-phone-square{
     color: #fff;
     background-image:linear-gradient(120deg, #F9A08D 30%, #4F82F5 70%);
     box-shadow: 0 8px 8px -7px #4F82F5;
@@ -360,6 +366,14 @@ textarea{
     font-size:2rem;
     
 }
+.cv-section{
+    position: fixed;
+    bottom:14px;
+    left:15px;
+}
+.cv-section img{
+    width:100px;
+}
 @media(max-width:992px){
     .navbar-light .navbar-toggler {
         color: #77B0FB;
@@ -384,6 +398,9 @@ textarea{
         background: #84D9F3;
         transition: all 0.5s ease;
     }
+    .card .btn-custom {
+        margin: 5px auto;
+    }
   
 }
 
@@ -392,7 +409,7 @@ textarea{
         font-size: 15.5px;
        
     }
-  footer  .fab{
+  footer  .fab,   footer  .fas{
         width: 40px;
         height: 40px;
         display: flex;
