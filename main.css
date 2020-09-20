@@ -417,4 +417,7 @@ a{
 .btn-custom{
     margin: 0 auto;
 }
+.overlay-4{
+    display: none;
+}
 }
